@@ -6,7 +6,7 @@ import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 import { gsap } from "gsap";
 import { useLanguage } from "../../context/languageContext";
-import { useTheme } from "../../context/ThemeContext";
+import { useTheme } from "../../context/themeContext";
 import translations from "../../constants/languages";
 
 const API_URL = import.meta.env.VITE_API_URL;

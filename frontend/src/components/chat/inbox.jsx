@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useTheme } from "../../context/ThemeContext";
+import { useTheme } from "../../context/themeContext";
 import axios from "axios";
 import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import { jwtDecode } from "jwt-decode";

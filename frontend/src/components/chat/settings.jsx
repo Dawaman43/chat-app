@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { gsap } from "gsap";
 import translations from "../../constants/languages";
 import { useLanguage } from "../../context/languageContext";
-import { useTheme } from "../../context/ThemeContext";
+import { useTheme } from "../../context/themeContext";
 import { ArrowLeftCircleIcon } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
